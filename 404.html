@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | Page Not Found</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* Theme variables matching the portfolio */
+        :root {
+            --primary-color: #00bcd4;
+            --background-dark: #1f2833; 
+            --text-light: #ffffff;
+            --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            --transition-speed: 0.3s;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--background-dark);
+            color: var(--text-light);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .error-container {
+            max-width: 600px;
+        }
+
+        .error-code {
+            font-size: 8em;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            text-shadow: 0 0 15px rgba(0, 188, 212, 0.5);
+        }
+
+        .error-message {
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        .error-description {
+            font-size: 1.1em;
+            color: #ccc;
+            margin-bottom: 40px;
+        }
+
+        .home-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: var(--background-dark);
+            padding: 12px 30px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform var(--transition-speed);
+        }
+
+        .home-button:hover {
+            background-color: #00a0b2;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="error-container">
+        <div class="error-code">404</div>
+        <div class="error-message">
+            <i class="fas fa-exclamation-triangle"></i> Page Not Found
+        </div>
+        <p class="error-description">
+            Oops! It looks like the page you requested doesn't exist. It might have been moved or deleted.
+        </p>
+        <a href="index.html" class="home-button">
+            <i class="fas fa-home"></i> Go to Homepage
+        </a>
+    </div>
+
+</body>
+</html>
