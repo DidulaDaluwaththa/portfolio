@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Didula Daluwaththa</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['Fira Code', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#0f172a] text-white min-h-screen flex flex-col font-sans antialiased">
+
+  <div id="navbar-placeholder"></div>
+
+  <main class="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 py-16 flex-grow">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
+      
+      <h1 class="text-4xl font-bold text-white mb-8 font-mono">
+        <span class="text-cyan-400">&lt;</span>About Me<span class="text-cyan-400">/&gt;</span>
+      </h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        
+        <div class="md:col-span-1">
+          <div class="relative">
+            <div class="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl blur-xl opacity-30"></div>
+            <img
+              src="imports/abtimg.jpg"
+              alt="Didula Daluwaththa"
+              class="relative w-full rounded-xl object-cover border-2 border-cyan-400/50 shadow-2xl"
+            />
+          </div>
+        </div>
+
+        <div class="md:col-span-2 bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl border border-cyan-500/20 p-8 shadow-lg">
+          <div class="flex items-center space-x-3 mb-4">
+            <i data-lucide="terminal" class="w-6 h-6 text-cyan-400"></i>
+            <h2 class="text-2xl font-semibold text-white">Professional Summary</h2>
+          </div>
+          <p class="text-gray-300 leading-relaxed mb-4">
+            I am an IT student specializing in Cybersecurity, with strong interests in penetration testing, networking, and web application security. Currently holding an HND in Computing (Cybersecurity) from ESOFT Metro Campus, I combine theoretical knowledge with hands-on practice.
+          </p>
+          <p class="text-gray-300 leading-relaxed">
+            I am skilled in Python, C#, Linux (Kali), MySQL, and various security tools, applying hands-on practice to simulate attacks, perform system hardening, and conduct vulnerability assessments. With strong analytical thinking, knowledge and problem-solving skills, I am committed to staying updated on the latest trends and contributing to the cybersecurity field.
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl border border-cyan-500/20 p-8 mb-8 shadow-lg">
+        <div class="flex items-center space-x-3 mb-6">
+          <i data-lucide="briefcase" class="w-6 h-6 text-cyan-400"></i>
+          <h2 class="text-2xl font-semibold text-white">Work Experience</h2>
+        </div>
+
+        <div class="border-l-4 border-cyan-500 pl-6 pb-2">
+          <div class="flex flex-col sm:flex-row justify-between items-start mb-2 gap-2">
+            <div>
+              <h3 class="font-semibold text-lg text-white">Assistant - IT</h3>
+              <p class="text-gray-400">Food Studio SL - Full-time</p>
+              <p class="text-gray-500 text-sm">Colombo, Western Province, Sri Lanka · On-site</p>
+            </div>
+            <span class="text-sm font-medium text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full">Sep 2025 - Present</span>
+          </div>
+          <ul class="mt-4 space-y-2 text-gray-300 text-sm leading-relaxed">
+            <li>&bull; Safeguard our network through Unibox, including managing user accounts, monitoring network logs, and continuously checking the overall security posture.</li>
+            <li>&bull; Manage the company network through Unibox (including managing user accounts, monitoring cloud logs, and maintaining overall network security).</li>
+            <li>&bull; Monitor network connectivity and respond to Starlink or performance issues across various locations.</li>
+            <li>&bull; Manage Dialog Bizcare services, including issuing and maintaining SIM cards for company employees.</li>
+            <li>&bull; Assist with user account management (including email creation, password resets, and system access provisioning).</li>
+            <li>&bull; Deploy security patches and updates, ensuring compliance with company IT policies and data backup procedures.</li>
+            <li>&bull; Provide on-site and remote support for a wide range of hardware and software issues, servers, network rollouts, and new outlet setups.</li>
+            <li>&bull; Troubleshoot hardware, software, network, and POS system issues and resolve them in a timely manner.</li>
+            <li>&bull; Maintain and configure computers, printers, CCTV systems, routers, access points, and other IT equipment.</li>
+            <li>&bull; Technical Support, Hardware & Software Troubleshooting and +18 skills.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl border border-cyan-500/20 p-8 shadow-lg">
+        <div class="flex items-center space-x-3 mb-6">
+          <i data-lucide="graduation-cap" class="w-6 h-6 text-cyan-400"></i>
+          <h2 class="text-2xl font-semibold text-white">Education</h2>
+        </div>
+
+        <div class="space-y-8">
+          
+          <div class="border-l-4 border-cyan-500 pl-6">
+            <div class="flex flex-col sm:flex-row justify-between items-start mb-2 gap-2">
+              <div>
+                <h3 class="font-semibold text-white text-lg">Level 5 Pearson BTEC HND in Computing (Cyber Security)</h3>
+                <p class="text-gray-400 text-sm">ESOFT Metro Campus - Colombo</p>
+                <p class="text-gray-500 text-xs mt-1">Grade: Pass | Completed the Pearson BTEC Level 5 HND in Computing (Cyber Security)</p>
+              </div>
+              <span class="text-sm font-medium text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full">Nov 2025</span>
+            </div>
+            <p class="text-gray-300 text-sm mt-3 leading-relaxed">
+              Gained in-depth knowledge in core computing areas including programming, networking, databases, and web technologies, while also acquiring specialized skills in Cybersecurity. This included hands-on work in Security Design And Development, Programming, +8 skills.
+            </p>
+          </div>
+
+          <div class="border-l-4 border-gray-600 pl-6">
+            <div class="flex flex-col sm:flex-row justify-between items-start mb-2 gap-2">
+              <div>
+                <h3 class="font-semibold text-white text-lg">Level 3 Assured Diploma in Information Technology</h3>
+                <p class="text-gray-400 text-sm">ESOFT Metro Campus - Kurunegala</p>
+                <p class="text-gray-500 text-xs mt-1">Grade: Pass | Certificate of completion: Assured Diploma in Information Technology (DIT/CS)</p>
+              </div>
+              <span class="text-sm text-gray-400">2023 - Present</span>
+            </div>
+            <p class="text-gray-300 text-sm mt-3 leading-relaxed">
+              Completed the Level 3 Diploma in Information Technology at ESOFT. This foundational certification delivers both theoretical and practical training designed to equip beginners with core IT competencies. Gained proficiency in fundamental IT concepts, MS Office applications, programming basics, and essential software troubleshooting.
+            </p>
+          </div>
+
+          <div class="border-l-4 border-gray-600 pl-6">
+            <div class="flex flex-col sm:flex-row justify-between items-start mb-2 gap-2">
+              <div>
+                <h3 class="font-semibold text-white text-lg">Level 3 Certificate in Information Technology</h3>
+                <p class="text-gray-400 text-sm">ESOFT Metro Campus - Kuliyapitiya</p>
+              </div>
+              <span class="text-sm text-gray-400">Feb 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl border border-cyan-500/20 p-8 mt-8 shadow-lg">
+        <div class="flex items-center space-x-3 mb-6">
+          <i data-lucide="graduation-cap" class="w-6 h-6 text-cyan-400"></i>
+          <h2 class="text-2xl font-semibold text-white">Licenses & Certifications</h2>
+        </div>
+
+        <div class="space-y-6">
+          
+          <div class="border-l-4 border-cyan-500 pl-6">
+            <div class="flex flex-col sm:flex-row justify-between items-start gap-2">
+              <div>
+                <h3 class="font-semibold text-white text-lg">Server Administration Essential Training</h3>
+                <p class="text-gray-400 text-sm">LinkedIn</p>
+                <p class="text-gray-500 text-xs mt-1">Skills: Network Administration</p>
+              </div>
+              <span class="text-sm font-medium text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full">Nov 2025</span>
+            </div>
+          </div>
+
+          <div class="border-l-4 border-gray-600 pl-6">
+            <div class="flex flex-col sm:flex-row justify-between items-start gap-2">
+              <div>
+                <h3 class="font-semibold text-white text-lg">Level 3 Certificate in Information Technology</h3>
+                <p class="text-gray-400 text-sm">ESOFT Metro Campus</p>
+                <p class="text-gray-500 text-xs mt-1">Credential ID: 123251 | Skills: Computer Hardware Fundamentals, Internet & Email, +4 skills</p>
+              </div>
+              <span class="text-sm text-gray-400">Issued</span>
+            </div>
+          </div>
+
+          <div class="border-l-4 border-gray-600 pl-6">
+            <div class="flex flex-col sm:flex-row justify-between items-start gap-2">
+              <div>
+                <h3 class="font-semibold text-white text-lg">Certificate Course in Computer Hardware Training</h3>
+                <p class="text-gray-400 text-sm">Wayamba IT Academy, affiliated with the IT Dept of North Western Province</p>
+                <p class="text-gray-500 text-xs mt-1">Skills: Computer Hardware Fundamentals</p>
+              </div>
+              <span class="text-sm text-gray-400">Dec 2019</span>
+            </div>
+          </div>
+
+          <div class="border-l-4 border-gray-600 pl-6">
+            <div class="flex flex-col sm:flex-row justify-between items-start gap-2">
+              <div>
+                <h3 class="font-semibold text-white text-lg">Certificate Course in Use of Computer Applications</h3>
+                <p class="text-gray-400 text-sm">Wayamba IT Academy, affiliated with the IT Dept of North Western Province</p>
+              </div>
+              <span class="text-sm text-gray-400">Mar 2019</span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="mt-8 bg-cyan-500/10 border-l-4 border-cyan-500 p-6 rounded-r-lg shadow-sm">
+        <h3 class="font-semibold mb-3 text-white text-lg">Languages</h3>
+        <div class="space-y-2 text-sm text-gray-300">
+          <p><span class="font-medium text-cyan-400">Sinhala:</span> Native / Fluent</p>
+          <p><span class="font-medium text-cyan-400">English:</span> Professional Working Proficiency</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="main.js?v=5"></script>
+
+</body>
+</html>

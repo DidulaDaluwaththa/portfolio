@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Didula Daluwaththa - Portfolio</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['Fira Code', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#0f172a] text-white min-h-screen flex flex-col font-sans antialiased">
+
+  <div id="navbar-placeholder"></div>
+
+  <main class="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 relative overflow-hidden flex-grow flex flex-col justify-center">
+    
+    <div class="absolute inset-0 bg-grid-pattern opacity-5"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 w-full">
+      <div class="text-center">
+        
+        <div class="mb-8 flex justify-center">
+          <div class="relative">
+            <div class="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-xl opacity-50 animate-pulse"></div>
+            <img
+              src="imports/profile1.jpg" 
+              alt="Didula Daluwaththa"
+              class="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full object-cover border-4 border-cyan-400 shadow-2xl shadow-cyan-500/50 transition-transform hover:scale-105 duration-300"
+            />
+          </div>
+        </div>
+
+        <div class="inline-flex items-center space-x-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full px-4 py-2 mb-6">
+          <i data-lucide="terminal" class="w-4 h-4 text-cyan-400"></i>
+          <span class="text-cyan-300 text-sm font-mono tracking-wide">Currently Studying Cybersecurity</span>
+        </div>
+
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 tracking-tight">
+          Hi, I'm <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Didula Daluwaththa</span>
+        </h1>
+        
+        <p class="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto font-medium">
+          Cybersecurity Enthusiast | IT Professional | HND in Cybersecurity
+        </p>
+        
+        <p class="text-base sm:text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+          IT student specializing in Cybersecurity with strong interests in penetration testing, networking, and web application security. Currently serving as Assistant IT at Food Studio SL while actively exploring diverse opportunities across the IT and tech industry to expand my expertise and make meaningful contributions.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="projects.html" class="inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-3 rounded-xl hover:from-cyan-600 hover:to-blue-700 transition-all font-medium shadow-lg shadow-cyan-500/50">
+            <span>View My Work</span>
+            <i data-lucide="arrow-right" class="w-5 h-5"></i>
+          </a>
+          <a href="contact.html" class="inline-flex items-center justify-center space-x-2 bg-transparent text-cyan-400 px-8 py-3 rounded-xl hover:bg-cyan-500/10 transition-all font-medium border-2 border-cyan-500">
+            <span>Get In Touch</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24">
+        
+        <div class="bg-gradient-to-br from-slate-800 to-slate-900 p-6 sm:p-8 rounded-2xl border border-cyan-500/20 hover:border-cyan-500/50 transition-all group shadow-lg">
+          <div class="bg-cyan-500/10 w-12 h-12 rounded-xl flex items-center justify-center mb-5 group-hover:bg-cyan-500/20 transition-all">
+            <i data-lucide="shield" class="w-6 h-6 text-cyan-400"></i>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">Cybersecurity</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            HND in Computing (Cyber Security) with expertise in system security, compliance, and threat management.
+          </p>
+        </div>
+
+        <div class="bg-gradient-to-br from-slate-800 to-slate-900 p-6 sm:p-8 rounded-2xl border border-green-500/20 hover:border-green-500/50 transition-all group shadow-lg">
+          <div class="bg-green-500/10 w-12 h-12 rounded-xl flex items-center justify-center mb-5 group-hover:bg-green-500/20 transition-all">
+            <i data-lucide="network" class="w-6 h-6 text-green-400"></i>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">Network Management</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Experienced in managing networks, configuring routers, access points, and CCTV systems.
+          </p>
+        </div>
+
+        <div class="bg-gradient-to-br from-slate-800 to-slate-900 p-6 sm:p-8 rounded-2xl border border-purple-500/20 hover:border-purple-500/50 transition-all group shadow-lg">
+          <div class="bg-purple-500/10 w-12 h-12 rounded-xl flex items-center justify-center mb-5 group-hover:bg-purple-500/20 transition-all">
+            <i data-lucide="code" class="w-6 h-6 text-purple-400"></i>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">Full-Stack Development</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Skilled in Python, C#, SQL, and web technologies including HTML, CSS, JavaScript, and Bootstrap.
+          </p>
+        </div>
+        
+      </div>
+    </div>
+
+    <style>
+      .bg-grid-pattern {
+        background-image:
+          linear-gradient(to right, rgba(6, 182, 212, 0.1) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(6, 182, 212, 0.1) 1px, transparent 1px);
+        background-size: 50px 50px;
+      }
+    </style>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="main.js?v=4"></script>
+
+</body>
+</html>
